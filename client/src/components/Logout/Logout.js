@@ -7,5 +7,9 @@ async function logoutUser(url) {
 }
 
 export default function Logout() {
-  return <button onClick={logoutUser("http://localhost:3000")}>log out</button>;
+  return (
+    <button onClick={() => logoutUser("http://localhost:3000/")}>
+      log out
+    </button>
+  );
 }

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Login from "../src/components/Login/Login";
+import Logout from "./components/Logout/Logout";
 
 import Preferences from "./components/Preferences/Preferences";
 import useToken from "./components/App/useToken";
